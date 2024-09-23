@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attributes"
+        android:textColor="#FFFFFF"
+        android:background="#6200EE"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_black_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ЧЕРНЫЙ ТЕКСТ"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_red_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="КРАСНЫЙ ТЕКСТ"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_size_8sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="РАЗМЕР - 8SP"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_size_24sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="РАЗМЕР - 24SP"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_white_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="БЕЛЫЙ ФОН"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_yellow_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ЖЕЛТЫЙ ФОН"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
